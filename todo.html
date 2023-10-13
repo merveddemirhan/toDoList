@@ -18,6 +18,77 @@
 <body>
     <!-- start code -->
 
+    <div class="my_container">
+        <div class="row">
+            <h4 class="text-primary text-center display-3">ToDo List</h4>
+
+            <h5>Ekle </h5>
+            <hr id="hr_id" />
+            <!-- input -->
+            <div class="col-6">
+                <div class="input-icons">
+                    <i class="fa-solid fa-bars"></i>
+
+
+                    <input type="text" id="todo_input" class="input-field" placeholder="Yapılacaklar">
+
+                </div>
+            </div>
+            <div class="col mb-3">
+                <button class="btn btn-primary"><i class="fa-solid fa-plus"></i></button>
+                <button class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+
+            </div>
+
+            <h5>Yapılacaklar</h5>
+            <hr id="hr_id" />
+            <ul>
+                <li>
+                    <div class="row">
+                        <div class="col-6">
+                            <input class="form-check-input" type="checkbox">
+                            <label for="">HTML ÇALIŞ</label>
+
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+            <hr id="hr_id" />
+            <h5>TAMAMLANANLAR</h5>
+            <ul id="ul_completed">
+                <li>
+                    <div class="row">
+                        <div class="col-6">
+
+                            <input class="form-check-input" type="checkbox" />
+                            <label for="" class="label_completed">HTML ÇALIŞ</label>
+                        </div>
+
+
+                        <div class="col-4">
+                            <button class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <hr id="hr_id" />
+            <h5>Tüm Listeyi Sil</h5>
+            <button class="btn btn-danger">Listeyi Sil<i class="fa-regular fa-trash-can"></i></button>
+        </div>
+        <!--end row  -->
+    </div>
+    <!--end container  -->
+    <h5 id="footer_id">By Merve Demirhan</h5>
+
+
 
 
 
@@ -53,7 +124,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
     </script>
-    <script src=. /template.js></script>
+    <script src=./template.js></script>
 </body>
 
 </html>
